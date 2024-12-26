@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <Button variant="outlined">Outlined</Button>
       <div>This is for cheking</div>
+      <div>another test</div>
     </div>
   );
 }
