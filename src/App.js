@@ -1,5 +1,4 @@
 import './App.css';
-import { Button } from '@mui/material';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './component/Home';
 import About from './component/About';
