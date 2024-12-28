@@ -10,7 +10,7 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 
 export default function Navbar() {
     return (
-        <Box sx={{ backgroundColor: '#6f42c1', display: 'flex', justifyContent: 'flex-end', width: '100%', height: 90, alignItems: 'center' }}>
+        <Box sx={{ position:'fixed',  backgroundColor: '#6f42c1', display: 'flex', justifyContent: 'flex-end', width: '100%', height: 90, alignItems: 'center' }}>
             <HomeIcon sx={{ marginRight: 1, color: 'white' }} />
             <Link href="/" sx={{ color: 'white', marginRight: 5, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 800 }}>Home</Link>
             <AccountCircleIcon sx={{ marginRight: 1, color: 'white' }} />
