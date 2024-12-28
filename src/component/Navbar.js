@@ -27,7 +27,6 @@ export default function Navbar() {
             <Box
                 sx={{ display: { md: 'none' }, 
                 backgroundColor: 'rgba(138, 38, 210, 0.73)', // Same background color as web navbar
-                height: 52,
                 width: '100%', // Full width
 
                 position: 'fixed', top: 0,

@@ -6,7 +6,6 @@ import Projects from './component/Projects';
 import Resume from './component/Resume';
 import Navbar from './component/Navbar';
 import Contact from './component/Contact';
-import Box from '@mui/material/Box';
 
 
 function App() {
