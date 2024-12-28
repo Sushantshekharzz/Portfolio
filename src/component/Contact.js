@@ -19,7 +19,7 @@ console.log(":process.env.URL",process.env.REACT_APP_URL)
 
 const add  = async() =>{
     const data  = {firstName:userName, lastName:Password}
-    await axios.post(`${process.env.REACT_APP_URL}/users/get`,data)
+    await axios.post(`${process.env.REACT_APP_URL}/users/post`,data)
     getData();
     setUserName('')
     serPassword('')
