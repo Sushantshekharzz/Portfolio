@@ -15,9 +15,9 @@ export default function Home() {
             }}>
                 <Box sx={{
                     display: 'flex', alignItems: 'center', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'center', height: '100vh', padding: { md: 4, xs: 5 },
-                    whiteSpace: { xs: 'nowrap', md: 'normal' },
-                    wordWrap: { xs: 'normal', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
-                    overflowX: { xs: 'auto', md: 'visible' }, // Horizontal scroll for mobile, no scroll for desktop
+                    // whiteSpace: { xs: 'nowrap', md: 'normal' },
+                    wordWrap: { xs: 'break-word', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
+                    // overflowX: { xs: 'auto', md: 'visible' }, // Horizontal scroll for mobile, no scroll for desktop
                 }}>
                     <Box sx={{
                         padding: { md: 4, xs: 5 },
