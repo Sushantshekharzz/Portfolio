@@ -6,12 +6,15 @@ import Projects from './component/Projects';
 import Resume from './component/Resume';
 import Navbar from './component/Navbar';
 import Contact from './component/Contact';
+import Box from '@mui/material/Box';
+
+
 function App() {
   return (
     <div >
     <Router>
       <Navbar/>
-      <div style={{marginTop:'100px'}}></div>
+      {/* <Box sx={{marginTop:{sm:20, md:20, xs:2}}}></Box> */}
       <Routes>
         <Route path='/'  element={<Home/>}/>
         <Route path='/about'  element={<About/>}/>

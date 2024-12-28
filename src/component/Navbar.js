@@ -25,20 +25,26 @@ export default function Navbar() {
     return (
         <>
             <Box
-                sx={{ display: { md: 'none' }, backgroundColor: '#6f42c1', height: 52 }}
+                sx={{ display: { md: 'none' }, 
+                backgroundColor: 'rgba(138, 38, 210, 0.73)', // Same background color as web navbar
+                height: 52,
+                width: '100%', // Full width
+
+                position: 'fixed', top: 0,
+                 height: 52 }}
                 onClick={toggleDrawer}
             >
                 <MenuIcon sx={{ fontSize: 50, marginLeft: 1, color: 'white' }} />
             </Box>
-            <Box sx={{ position: 'fixed', top: 0, backgroundColor: '#6f42c1', display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-end', width: '100%', height: 90, alignItems: 'center' }}>
+            <Box sx={{ position: 'fixed', top: 0, backgroundColor: 'rgba(138, 38, 210, 0.07)', display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-end', width: '100%', height: 90, alignItems: 'center' }}>
                 <HomeIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/" sx={{ color: 'white', marginRight: 5, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 800 }}>Home</Link>
+                <Link href="/" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Home</Link>
                 <AccountCircleIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/about" sx={{ color: 'white', marginRight: 5, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 800 }}>About</Link>
+                <Link href="/about" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>About</Link>
                 <LiveTvIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/projects" sx={{ color: 'white', marginRight: 5, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 800 }}>Projects</Link>
+                <Link href="/projects" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Projects</Link>
                 <ContentPasteIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/resume" sx={{ color: 'white', marginRight: 5, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 800 }}>Resume</Link>
+                <Link href="/resume" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Resume</Link>
             </Box>
             <Drawer open={toggle} onClose={toggleDrawer} anchor='top'>
                 <List sx={{ backgroundColor: '#6f42c1', }}>
