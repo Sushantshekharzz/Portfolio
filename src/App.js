@@ -4,7 +4,7 @@ import Home from './component/Home';
 import About from './component/About';
 import Projects from './component/Projects';
 import Resume from './component/Resume';
-import Navbar from './component/Navbar';
+// import Navbar from './component/Navbar';
 import Contact from './component/Contact';
 function App() {
   return (

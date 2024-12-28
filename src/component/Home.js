@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import HomeLogo from '../image/home-bg.jpg'
 import StudyImage from '../image/study.jpg'
 
