@@ -1,19 +1,13 @@
-import React from 'react'
-// import Navbar from './Navbar'
-import HomeLogo from '../image/home-bg.jpg'
-import StudyImage from '../image/study.jpg'
+import React from 'react';
+import HomeLogo from '../image/home-bg.jpg';
+import StudyImage from '../image/study.jpg';
+import Navbar from './Navbar';
 
 export default function Home() {
     return (
-        <div  style={{backgroundImage:`url(${HomeLogo})`,   width: '100%',   display: 'block', height:'100vh'}}>
+        <>
 
-            <div>
-                <img src={StudyImage} alt="" 
-                
-                style={{height:100}}
-                />
-            </div>
-
-        </div>
-    )
+           <div >Sushant</div>
+        </>
+    );
 }
