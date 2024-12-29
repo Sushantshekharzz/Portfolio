@@ -15,13 +15,14 @@ export default function Home() {
                 backgroundPosition: 'center', // Center the background image
             }}>
                 <Box sx={{
-                    display: 'flex', alignItems: 'center', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'center', height: '100vh', padding: { md: 4, xs: 5 }, paddingTop: { xs: 12 },
+                    display: 'flex', alignItems: {xs:'flex-start', md:'center'}, flexDirection: { xs: 'column', md: 'row' }, justifyContent: {xs:'flex-start', md:'center'}, height: '100vh', padding: { md: 1},  paddingInline:{xs:6}, paddingTop:{xs:10},
                     // whiteSpace: { xs: 'nowrap', md: 'normal' },
-                    wordWrap: { xs: 'normal', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
+                    // wordWrap: { xs: 'normal', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
                     // overflowX: { xs: 'auto', md: 'visible' }, // Horizontal scroll for mobile, no scroll for desktop
+                    wordBreak: {xs:'break-word', md:'break-word'}, // Forces long words to break                 
+                    // overflowX: { xs: 'auto', md: 'normal' }, // Horizontal scroll for mobile, no scroll for desktop
                 }}>
                     <Box sx={{
-                        padding: { md: 4, xs: 5 },
                         maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
                         display: 'flex',
                         alignItems: 'flex-start',
@@ -56,7 +57,8 @@ export default function Home() {
                         </Box>
                     </Box>
                     <Box sx={{
-                        padding: { md: 4, xs: 5 },
+                        paddingTop:{xs:10},
+                        padding: { md: 4 },
                         maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
                     }}>
                         <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
