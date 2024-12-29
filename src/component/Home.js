@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Box sx={{
-                backgroundImage: `url(${backgroundImage})`, height: '100%',
+                backgroundImage: `url(${backgroundImage})`, height: 'auto',
                 backgroundSize: 'cover', // Ensure the image covers the entire container
                 backgroundAttachment: 'fixed', // Desktop: Fixed background
                 backgroundPosition: 'center', // Center the background image
