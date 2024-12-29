@@ -24,7 +24,7 @@ const InfiniteMultiLineAnimation = () => {
     }, (letters.length + 1) * 200); // Adjust timing based on the number of letters
 
     return () => clearTimeout(timeout);
-  }, [phase, currentLine]);
+  }, [phase, currentLine, letters.length, lines.length]);
 
   const containerVariants = {
     visible: {
