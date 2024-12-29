@@ -71,8 +71,8 @@ const InfiniteMultiLineAnimation = () => {
         >
           {letters.map((letter, index) => (
             <motion.span
-              key={index}
-              variants={letterVariants}
+            key={`${currentLine}-${index}`}  // Ensure unique keys by combining currentLine and index
+            variants={letterVariants}
               style={{ display: "inline-block", margin: 0 }}
             >
               {letter === " " ? "\u00A0" : letter} {/* Replace spaces with non-breaking spaces */}
