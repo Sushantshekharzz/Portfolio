@@ -35,7 +35,7 @@ export default function Home() {
                         }}>
                             <Box
                                 sx={{
-                                    fontFamily: 'Raleway,serif!important', fontSize: '2.4em!important', color: 'white',
+                                    fontFamily: 'Raleway,serif!important', fontSize: 40, color: 'white',
                                 }}
                             >Hi There!</Box>
                             <Box sx={{
@@ -45,11 +45,11 @@ export default function Home() {
                             </Box>
                         </Box>
                         <Box
-                            sx={{ fontFamily: 'Raleway,serif!important', fontSize: '2.4em!important', color: 'white', paddingTop: 8 }}
+                            sx={{ fontFamily: 'Raleway,serif!important', fontSize: 40, color: 'white',paddingTop:{xs:3, md:1 }}}
                         >I'M <span style={{ color: "rgb(138, 38, 210)", fontWeight: 1000 }}>Sushant Shekhar</span></Box>
                         <Box sx={{
-                            fontFamily: 'Raleway,serif!important', fontSize: '2.4em!important', color: 'white', paddingTop: 8
-                            ,fontWeight: 1000
+                            fontFamily: 'Raleway,serif!important',  color: 'white', paddingTop: 9
+                            ,fontWeight: 1000, fontSize: {xs:23, md:40}
                         }}
                         >
                             <InfiniteMultiLineAnimation />

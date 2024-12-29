@@ -66,7 +66,6 @@ const InfiniteMultiLineAnimation = () => {
             wordWrap: "break-word", // Allow word break
             textAlign: "center", // Center the text
             maxWidth: "100%", // Ensure text doesn't overflow the container
-            fontSize: "clamp(1rem, 4vw, 2.4rem)", // Responsive font size
           }}
         >
           {letters.map((letter, index) => (
