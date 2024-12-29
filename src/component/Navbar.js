@@ -25,9 +25,12 @@ export default function Navbar() {
     return (
         <>
             <Box
-                sx={{ display: { md: 'none' }, 
+                sx={{ display: { md: 'none' , xs:'flex'}, 
                 backgroundColor: 'rgba(138, 38, 210, 0.73)', // Same background color as web navbar
                 width: '100%', // Full width
+                paddingInline: 1, // Add horizontal padding
+                justifyContent:'flex-end',
+                boxSizing: 'border-box', // Ensure padding doesn't add to the width
 
                 position: 'fixed', top: 0,
                  height: 52 }}

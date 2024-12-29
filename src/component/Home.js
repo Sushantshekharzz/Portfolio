@@ -15,7 +15,7 @@ export default function Home() {
                 backgroundPosition: 'center', // Center the background image
             }}>
                 <Box sx={{
-                    display: 'flex', alignItems: {xs:'flex-start', md:'center'}, flexDirection: { xs: 'column', md: 'row' }, justifyContent: {xs:'flex-start', md:'center'}, height: '100vh', padding: { md: 1},  paddingInline:{xs:6}, paddingTop:{xs:10},
+                    display: 'flex', alignItems: {xs:'flex-start', md:'center'}, flexDirection: { xs: 'column', md: 'row' }, justifyContent: {xs:'flex-start', md:'center'}, minHeight: '100vh', padding: { md: 1},  paddingInline: { xs: 3, sm: 6, md: 8 },  paddingTop:{xs:20},
                     // whiteSpace: { xs: 'nowrap', md: 'normal' },
                     // wordWrap: { xs: 'normal', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
                     // overflowX: { xs: 'auto', md: 'visible' }, // Horizontal scroll for mobile, no scroll for desktop
