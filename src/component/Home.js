@@ -80,7 +80,7 @@ export default function Home() {
                             <Typography sx={{ fontFamily: 'Roboto Condensed', color: 'white', fontSize: 25,marginTop:4 }}>Passionate about building<Typography variant='span' sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, fontStyle: 'italic' }}> User-Centric and Scalable Solutions</Typography>  with a focus on<Typography variant='span' sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, fontStyle: 'italic'}}> Performance and Maintainability.</Typography> </Typography>
                         </Box>
                         <Box sx={{ paddingTop: { xs: 4 } }}>
-                            <img src={Introduction} style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
+                            <img   alt="" src={Introduction} style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
                         </Box>
                     </Box>
                 </Box>
