@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Box sx={{
-                backgroundImage: `url(${backgroundImage})`, height: 'auto',
+                backgroundImage: `url(${backgroundImage})`, 
                 backgroundSize: 'cover', // Ensure the image covers the entire container
                 backgroundAttachment: 'fixed', // Desktop: Fixed background
                 backgroundPosition: 'center', // Center the background image
@@ -55,6 +55,22 @@ export default function Home() {
                         >
                             <InfiniteMultiLineAnimation />
                         </Box>
+                    </Box>
+                    <Box sx={{
+                        paddingTop:{xs:10},
+                        padding: { md: 4 },
+                        maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
+                    }}>
+                        <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
+                    </Box>
+                </Box>
+                <Box>
+                <Box sx={{
+                        paddingTop:{xs:10},
+                        padding: { md: 4 },
+                        maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
+                    }}>
+                        <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
                     </Box>
                     <Box sx={{
                         paddingTop:{xs:10},
