@@ -9,13 +9,13 @@ export default function Home() {
     return (
         <>
             <Box sx={{
-                backgroundImage: `url(${backgroundImage})`, 
+                backgroundImage: `url(${backgroundImage})`, minHeight:'100vh', 
                 backgroundSize: 'cover', // Ensure the image covers the entire container
                 backgroundAttachment: 'fixed', // Desktop: Fixed background
                 backgroundPosition: 'center', // Center the background image
             }}>
                 <Box sx={{
-                    display: 'flex', alignItems: {xs:'flex-start', md:'center'}, flexDirection: { xs: 'column', md: 'row' }, justifyContent: {xs:'flex-start', md:'center'}, minHeight: '100vh', padding: { md: 1},  paddingInline: { xs: 3,  md: 8 },  paddingTop:{xs:20},
+                    display: 'flex', alignItems: {xs:'flex-start', md:'center'}, flexDirection: { xs: 'column', md: 'row' }, justifyContent: {xs:'flex-start', md:'center'}, minHeight: '100%', padding: { md: 1},  paddingInline: { xs: 3,  md: 8 },  paddingTop:{xs:20, md:14},
                     // whiteSpace: { xs: 'nowrap', md: 'normal' },
                     // wordWrap: { xs: 'normal', md: 'break-word' },// Prevent wrapping on mobile, allow on desktop
                     // overflowX: { xs: 'auto', md: 'visible' }, // Horizontal scroll for mobile, no scroll for desktop
@@ -63,6 +63,25 @@ export default function Home() {
                     }}>
                         <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
                     </Box>
+                </Box>
+                <Box>
+                <Box sx={{
+                        paddingTop:{xs:10},
+                        padding: { md: 4 },
+                        maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
+                    }}>
+                        <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
+                    </Box>
+                    <Box sx={{
+                        paddingTop:{xs:10},
+                        padding: { md: 4 },
+                        maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
+                    }}>
+                        <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
+                    </Box>
+                    
+
+
                 </Box>
             </Box>
         </>
