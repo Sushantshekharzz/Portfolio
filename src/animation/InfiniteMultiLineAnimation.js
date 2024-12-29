@@ -24,7 +24,7 @@ const InfiniteMultiLineAnimation = () => {
     }, (letters.length + 1) * 200); // Adjust timing based on the number of letters
 
     return () => clearTimeout(timeout);
-  }, [phase, currentLine, letters.length]);
+  }, [phase, currentLine]);
 
   const containerVariants = {
     visible: {
@@ -73,7 +73,8 @@ const InfiniteMultiLineAnimation = () => {
             <motion.span
             key={`${currentLine}-${index}`}  // Ensure unique keys by combining currentLine and index
             variants={letterVariants}
-              style={{ display: "inline-block", margin: 0 }}
+              style={{ display: "inline-block", margin: 0,                             
+                 color: "rgb(138, 38, 210)",              }}
             >
               {letter === " " ? "\u00A0" : letter} {/* Replace spaces with non-breaking spaces */}
             </motion.span>

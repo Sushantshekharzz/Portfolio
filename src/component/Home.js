@@ -49,8 +49,7 @@ export default function Home() {
                         >I'M <span style={{ color: "rgb(138, 38, 210)", fontWeight: 1000 }}>Sushant Shekhar</span></Box>
                         <Box sx={{
                             fontFamily: 'Raleway,serif!important', fontSize: '2.4em!important', color: 'white', paddingTop: 8
-                            , color: "rgb(138, 38, 210)",
-                            fontWeight: 1000
+                            ,fontWeight: 1000
                         }}
                         >
                             <InfiniteMultiLineAnimation />
