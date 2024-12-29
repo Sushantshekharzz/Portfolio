@@ -37,13 +37,13 @@ export default function Navbar() {
             </Box>
             <Box sx={{ position: 'fixed', top: 0, backgroundColor: 'rgba(138, 38, 210, 0.07)', display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-end', width: '100%', height: 90, alignItems: 'center' }}>
                 <HomeIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Home</Link>
+                <Link href="/" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Home</Link>
                 <AccountCircleIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/about" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>About</Link>
+                <Link href="/about" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>About</Link>
                 <LiveTvIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/projects" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Projects</Link>
+                <Link href="/projects" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Projects</Link>
                 <ContentPasteIcon sx={{ marginRight: 1, color: 'white' }} />
-                <Link href="/resume" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 25 }}>Resume</Link>
+                <Link href="/resume" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Resume</Link>
             </Box>
             <Drawer open={toggle} onClose={toggleDrawer} anchor='top'>
                 <List sx={{ backgroundColor: '#6f42c1', }}>
