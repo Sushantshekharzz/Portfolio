@@ -61,7 +61,7 @@ export default function Home() {
                     </Box>
                     <Box sx={{
                         paddingTop: { xs: 10 },
-                        padding: { md: 4 },
+                        // padding: { md: 4 },
                         maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
                     }}>
                         <img src={study} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
