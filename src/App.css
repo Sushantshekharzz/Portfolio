@@ -59,5 +59,16 @@
   border-radius: 50px;
 }
 
+@media (max-width: 600px) {
+  .custom-scroll {
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+  }
+
+  /* Hide scrollbar in Webkit browsers on mobile */
+  .custom-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 
 

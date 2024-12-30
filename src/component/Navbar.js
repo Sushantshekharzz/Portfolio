@@ -32,7 +32,7 @@ export default function Navbar() {
                     paddingInline: 1, // Add horizontal padding
                     justifyContent: 'flex-end',
                     boxSizing: 'border-box', // Ensure padding doesn't add to the width
-
+                    backdropFilter: 'blur(10px)',
                     position: 'fixed', top: 0,
                     height: 52
                 }}
@@ -40,8 +40,10 @@ export default function Navbar() {
             >
                 <MenuIcon sx={{ fontSize: 50, marginLeft: 1, color: 'white' }} />
             </Box>
-            <Box sx={{ position: 'fixed', top: 0,   backdropFilter: 'blur(10px)',
-backgroundColor: 'rgba(138, 38, 210, 0.15)', zIndex: 1000, display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-start', width: '100%', height: 90, alignItems: 'center' }}>
+            <Box sx={{
+                position: 'fixed', top: 0, backdropFilter: 'blur(10px)',
+                backgroundColor: 'rgba(138, 38, 210, 0.15)', zIndex: 1000, display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-start', width: '100%', height: 90, alignItems: 'center'
+            }}>
                 <Box
                     sx={{ width: '100%', paddingLeft: 4 }}>
                     <Typography
