@@ -11,7 +11,7 @@ export default function About() {
       backgroundSize: 'cover', // Ensure the image covers the entire container
       backgroundAttachment: 'fixed', // Desktop: Fixed background
       backgroundPosition: 'center', // Center the background image
-      paddingInline: { xs: 5, md: 20 },
+      paddingInline: { xs: 5, md: 10 },
       wordBreak: { xs: 'break-word', md: 'break-word' }, // Forces long words to break 
       paddingBottom: 10
     }}>
@@ -22,7 +22,7 @@ export default function About() {
         alignItems: 'center',
         height: '100%',
         width: '100%',
-        justifyContent: 'center'
+        justifyContent: 'space-around'
       }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', width: '100%' }}>
           <Box>
@@ -34,7 +34,7 @@ export default function About() {
           <Box >
             <Typography
               sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
-            >Hi Everyone, I am <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Sushant Shekhar</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Gaya, Bihar</Typography></Typography>
+            >Hi Everyone, I am <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Sushant Shekhar</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Gaya, Bihar.</Typography></Typography>
           </Box>
           <Box sx={{paddingTop:2}}>
             <Typography
