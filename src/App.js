@@ -7,8 +7,7 @@ import Resume from './component/Resume';
 import Navbar from './component/Navbar';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+
 
 
 function App() {
