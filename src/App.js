@@ -7,12 +7,26 @@ import Resume from './component/Resume';
 import Navbar from './component/Navbar';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Box } from '@mui/material';
+import { div } from 'framer-motion/client';
 
+function ScrollToTop() {
+  const location = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
 function App() {
   return (
-    <div >
+    
+    <div className="custom-scroll"  >
     <Router>
+      <ScrollToTop/>
       <Navbar/>
       {/* <Box sx={{marginTop:{sm:20, md:20, xs:2}}}></Box> */}
       <Routes>
