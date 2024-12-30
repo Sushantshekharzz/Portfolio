@@ -81,7 +81,7 @@ export default function About() {
         <Box sx={{
           height: '100%', width: '100%',
           paddingBottom: { md: 25, xs: 0 },
-          paddingTop: { xs: 4, },
+          // paddingTop: { xs: 4, },
           maxWidth: { xs: '100%', md: '400px' }, // Full width on mobile, limited on desktop
           maxHeight:{md:'100px', xs:'100%'}
         }}>
