@@ -40,7 +40,8 @@ export default function Navbar() {
             >
                 <MenuIcon sx={{ fontSize: 50, marginLeft: 1, color: 'white' }} />
             </Box>
-            <Box sx={{ position: 'fixed', top: 0, backgroundColor: 'rgba(138, 38, 210, 0.07)', display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-start', width: '100%', height: 90, alignItems: 'center' }}>
+            <Box sx={{ position: 'fixed', top: 0,   backdropFilter: 'blur(10px)',
+backgroundColor: 'rgba(138, 38, 210, 0.15)', zIndex: 1000, display: { xs: 'none', sm: 'none', md: 'flex' }, justifyContent: 'flex-start', width: '100%', height: 90, alignItems: 'center' }}>
                 <Box
                     sx={{ width: '100%', paddingLeft: 4 }}>
                     <Typography

@@ -28,7 +28,7 @@ export default function Home() {
                     <Box sx={{
                         maxWidth: { xs: '100%', md: '500px' }, // Full width on mobile, limited on desktop
                         display: 'flex',
-                        alignItems: 'center',
+                        alignItems: 'flex-start',
                         justifyContent: 'flex-start', // Ensures horizontal alignment starts at the left
                         flexDirection: { xs: 'column', md: 'column' }
                     }}>
@@ -49,7 +49,7 @@ export default function Home() {
                             </Box>
                         </Box>
                         <Typography
-                            sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', paddingTop: { xs: 3, md: 1 }, textAlign: 'center' }}
+                            sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', paddingTop: { xs: 3, md: 1 }, textAlign: 'left' }}
                         >I'M <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0", fontWeight: 1000, fontSize: 40, }}>Sushant Shekhar</Typography></Typography>
                         <Box sx={{
                             fontFamily: 'Raleway,serif', color: 'white', paddingTop: 9
