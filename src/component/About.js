@@ -21,7 +21,7 @@ export default function About() {
         paddingTop: { xs: 20, md: 22 },
         display: 'flex',
         flexDirection: { xs: 'column', md: 'row' },
-        alignItems: 'center',
+        alignItems: 'flex-start',
         height: '100%',
         width: '100%',
         justifyContent: 'space-around'
@@ -83,6 +83,7 @@ export default function About() {
           paddingBottom: { md: 25, xs: 0 },
           paddingTop: { xs: 4, },
           maxWidth: { xs: '100%', md: '400px' }, // Full width on mobile, limited on desktop
+          maxHeight:{md:'100px', xs:'100%'}
         }}>
           <img src={about} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
         </Box>
