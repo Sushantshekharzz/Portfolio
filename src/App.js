@@ -6,6 +6,7 @@ import Projects from './component/Projects';
 import Resume from './component/Resume';
 import Navbar from './component/Navbar';
 import Contact from './component/Contact';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contact'  element={<Contact/>}/>
 
       </Routes>
+      <Footer/> 
     </Router>
     </div>
   );
