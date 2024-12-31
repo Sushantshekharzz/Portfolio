@@ -7,10 +7,13 @@ import HandshakeAnimation from '../../animation/HandSakeAnimation';
 import InfiniteMultiLineAnimation from '../../animation/InfiniteMultiLineAnimation';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 export default function Home() {
     return (
         <>
+            <Navbar />
             <Box sx={{
                 backgroundImage: `url(${backgroundImage})`, minHeight: '100vh',
                 backgroundSize: 'cover', // Ensure the image covers the entire container
@@ -52,7 +55,7 @@ export default function Home() {
                         </Box>
                         <Typography
                             sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', paddingTop: { xs: 3, md: 1 }, textAlign: 'left' }}
-                        >I'M <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0",  fontSize: 40, }}>Sushant Shekhar</Typography></Typography>
+                        >I'M <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0", fontSize: 40, }}>Sushant Shekhar</Typography></Typography>
                         <Box sx={{
                             fontFamily: 'Raleway,serif', color: 'white', paddingTop: 9
                             , fontSize: { xs: 20, md: 40 }
@@ -117,6 +120,7 @@ export default function Home() {
                     </Box>
                 </Box>
             </Box>
+            <Footer />
         </>
     );
 }
