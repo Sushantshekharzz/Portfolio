@@ -30,7 +30,7 @@ export default function TechStack() {
 
     ]
     return (
-        <Box sx={{ textAlign: 'center', }}>
+        <Box sx={{ textAlign: 'center', paddingTop:{md:5, xs:8}}}>
 
             <Typography sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white' }} >Professional <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: '#c770f0', fontWeight: 1000, fontSize: 40, }}>Skillset</Typography></Typography>
             <Grid container spacing={3} sx={{ justifyContent: 'center', paddingTop: 6 }}>
