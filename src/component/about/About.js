@@ -4,6 +4,7 @@ import backgroundImage from "../../image/backgroundImage.png"
 import { Typography } from '@mui/material'
 import about from "../../image/about.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import TechStack from './TechStack'
 
 export default function About() {
   return (
@@ -87,11 +88,7 @@ export default function About() {
           <img src={about} alt="" style={{ height: '100%', maxWidth: '100%', objectFit: 'cover' }} />
         </Box>
       </Box>
-    
-      <Box sx={{textAlign:'center',paddingTop:5}}> 
-                            <Typography sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white' }} >Professional <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: '#c770f0', fontWeight: 1000, fontSize: 40, }}>Skillset</Typography></Typography>
-        
-      </Box>
+ <TechStack/>
      
     </Box>
   )
