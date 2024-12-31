@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import Introduction from "../image/Introduction.png"
-import backgroundImage from "../image/backgroundImage.png"
-import study from "../image/study.png"
-import HandshakeAnimation from '../animation/HandSakeAnimation';
-import InfiniteMultiLineAnimation from '../animation/InfiniteMultiLineAnimation';
+import Introduction from "../../image/Introduction.png"
+import backgroundImage from "../../image/backgroundImage.png"
+import study from "../../image/study.png"
+import HandshakeAnimation from '../../animation/HandSakeAnimation';
+import InfiniteMultiLineAnimation from '../../animation/InfiniteMultiLineAnimation';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 

@@ -1,10 +1,9 @@
 import React from 'react'
 import { Box } from '@mui/material'
-import backgroundImage from "../image/backgroundImage.png"
+import backgroundImage from "../../image/backgroundImage.png"
 import { Typography } from '@mui/material'
-import about from "../image/about.png"
+import about from "../../image/about.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import HorizontalRuleSharpIcon from '@mui/icons-material/HorizontalRuleSharp';
 
 export default function About() {
   return (
@@ -48,7 +47,7 @@ export default function About() {
                 sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
               >I completed my <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>B.Tech</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Asansol Engineering College.</Typography></Typography>
             </Box>
-            <Box sx={{ paddingTop: { md: 10, xs: 10 } }}>
+            <Box sx={{ paddingTop: { md: 16, xs: 10 } }}>
               <Typography
                 sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
               >Apart from coding, some other activities that I love to do!</Typography>
@@ -69,7 +68,7 @@ export default function About() {
         <Box sx={{textAlign:{xs:'center', md: 'left'}}} >
           <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "white", fontSize: 25, fontStyle: 'italic' }}>"Compassion is the greatest virtue."</Typography>
           <Box sx={{ display: 'flex', justifyContent: {md:'flex-start', xs:'center'}, alignItems: {md:'center', xs:'flex-start'} }}>
-            <HorizontalRuleSharpIcon sx={{ color: "#c770f0", fontSize: 15, marginTop: 3 }} />
+            {/* <HorizontalRuleSharpIcon sx={{ color: "#c770f0", fontSize: 15, marginTop: 3 }} /> */}
             <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontSize: 15, marginTop: 3, }}>Sushant Shekhar</Typography>
           </Box>
         </Box>

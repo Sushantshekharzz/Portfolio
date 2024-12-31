@@ -21,7 +21,7 @@ export default function Footer() {
                     sx={{
                         fontFamily: "Roboto Condensed", fontSize: 20, color: 'white',
                     }}
-                >Copyright © 2024 SS</Typography>
+                >Copyright © 2025 SS</Typography>
             </Box>
             <Box sx={{ marginTop: { xs: 2, md: 0 }, marginRight: { md: 5, xs: 0 }, width: '100%', textAlign: { md: 'right', textAlign: 'center' } }}>
                 <a href="https://www.linkedin.com/in/sushant-shekhar-6709311a1" target="_blank" rel="noopener noreferrer">
