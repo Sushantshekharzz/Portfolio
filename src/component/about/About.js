@@ -30,23 +30,23 @@ export default function About() {
           <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%', width: '100%'}}>
             <Typography
               sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', }}
-            >Know Who<Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0", fontWeight: 1000, fontSize: 40, }}> I'M</Typography></Typography>
+            >Know Who<Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0",  fontSize: 40, }}> I'M</Typography></Typography>
           </Box>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%', width: '100%', padding: 4 }}>
             <Box >
               <Typography
                 sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
-              >Hi Everyone, I am <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Sushant Shekhar</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Gaya, Bihar.</Typography></Typography>
+              >Hi Everyone, I am <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, }}>Sushant Shekhar</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, }}>Gaya, Bihar.</Typography></Typography>
             </Box>
             <Box sx={{ paddingTop: 2 }}>
               <Typography
                 sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
-              >I previously worked at <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Jman Group</Typography> and am currently seeking new opportunities.</Typography>
+              >I previously worked at <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, }}>Jman Group</Typography> and am currently seeking new opportunities.</Typography>
             </Box>
             <Box sx={{ paddingTop: 2 }}>
               <Typography
                 sx={{ fontFamily: 'Roboto Condensed', fontSize: 25, color: 'white', }}
-              >I completed my <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>B.Tech</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontWeight: 200, fontSize: 25, }}>Asansol Engineering College.</Typography></Typography>
+              >I completed my <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, }}>B.Tech</Typography> from <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0",  fontSize: 25, }}>Asansol Engineering College.</Typography></Typography>
             </Box>
             <Box sx={{ paddingTop: { md: 16, xs: 10 } }}>
               <Typography

@@ -52,10 +52,10 @@ export default function Home() {
                         </Box>
                         <Typography
                             sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', paddingTop: { xs: 3, md: 1 }, textAlign: 'left' }}
-                        >I'M <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0", fontWeight: 1000, fontSize: 40, }}>Sushant Shekhar</Typography></Typography>
+                        >I'M <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0",  fontSize: 40, }}>Sushant Shekhar</Typography></Typography>
                         <Box sx={{
                             fontFamily: 'Raleway,serif', color: 'white', paddingTop: 9
-                            , fontWeight: 1000, fontSize: { xs: 20, md: 40 }
+                            , fontSize: { xs: 20, md: 40 }
                         }}
                         >
                             <InfiniteMultiLineAnimation />
@@ -70,7 +70,7 @@ export default function Home() {
                     </Box>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', paddingTop: { xs: 10, md: 10 } }}>
-                    <Typography sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', textAlign: 'center' }} >LET ME <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: '#c770f0', fontWeight: 1000, fontSize: 40, }}>INTRODUCE</Typography> MYSELF</Typography>
+                    <Typography sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', textAlign: 'center' }} >LET ME <Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: '#c770f0', fontSize: 40, }}>INTRODUCE</Typography> MYSELF</Typography>
                     <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: { md: 'row', xs: 'column' }, alignItems: 'center', paddingTop: { md: 1, xs: 5 } }}>
                         <Box >
                             <Typography sx={{ fontFamily: 'Roboto Condensed', color: 'white', fontSize: 25, marginTop: 4 }}>I fell in love with <Typography variant='span' sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontSize: 25, fontStyle: 'italic' }}> Programming </Typography>and I have at least learnt something, I think… 🤷‍♂️</Typography>
