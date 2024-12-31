@@ -27,7 +27,7 @@ export default function About() {
         justifyContent: 'space-around'
       }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', width: '100%' }}>
-          <Box>
+          <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start', height: '100%', width: '100%'}}>
             <Typography
               sx={{ fontFamily: 'Raleway,serif', fontSize: 40, color: 'white', }}
             >Know Who<Typography component="span" sx={{ fontFamily: 'Raleway,serif', color: "#c770f0", fontWeight: 1000, fontSize: 40, }}> I'M</Typography></Typography>
