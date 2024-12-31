@@ -57,10 +57,10 @@ export default function Navbar() {
                     <Link href="/" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Home</Link>
                     <AccountCircleIcon sx={{ marginRight: 1, color: 'white' }} />
                     <Link href="/about" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>About</Link>
-                    <LiveTvIcon sx={{ marginRight: 1, color: 'white' }} />
+                    {/* <LiveTvIcon sx={{ marginRight: 1, color: 'white' }} />
                     <Link href="/projects" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Projects</Link>
                     <ContentPasteIcon sx={{ marginRight: 1, color: 'white' }} />
-                    <Link href="/resume" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Resume</Link>
+                    <Link href="/resume" sx={{ color: 'white', marginRight: 10, textDecoration: 'none', fontFamily: 'Roboto, sans-serif', fontWeight: 500, fontSize: 20 }}>Resume</Link> */}
                 </Box>
             </Box>
 
@@ -82,7 +82,7 @@ export default function Navbar() {
                             <ListItemText primary="About" sx={{ color: 'white', fontFamily: 'Roboto, sans-serif' }} />
                         </ListItemButton>
                     </ListItem>
-                    <ListItem >
+                    {/* <ListItem >
                         <ListItemButton href='/projects'>
                             <ListItemIcon>
                                 <LiveTvIcon sx={{ color: 'white' }} />
@@ -97,7 +97,7 @@ export default function Navbar() {
                             </ListItemIcon>
                             <ListItemText primary="Resume" sx={{ color: 'white', fontFamily: 'Roboto, sans-serif' }} />
                         </ListItemButton>
-                    </ListItem>
+                    </ListItem> */}
                 </List>
             </Drawer>
         </>

@@ -5,8 +5,17 @@ import { Typography } from '@mui/material'
 import about from "../../image/about.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import TechStack from './TechStack'
+import Button from '@mui/material/Button';
 
 export default function About() {
+
+  const handledownload = ()=>{
+    const pdfUrl = "/resume.pdf" // Path to your PDF file in the public folder
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'sushant-shekhar-resume.pdf'; // Name the downloaded file
+    link.click(); // Trigger the download
+  }
   return (
     <Box sx={{
       backgroundImage: `url(${backgroundImage})`, minHeight: '100vh',
@@ -67,7 +76,7 @@ export default function About() {
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', marginTop: { xs: 6, md: 5 } ,width:'100%' }}>
         <Box sx={{textAlign:{xs:'center', md: 'left'}}} >
-          <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "white", fontSize: 25, fontStyle: 'italic' }}>"Compassion is the greatest virtue."</Typography>
+          <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "white", fontSize: 25, fontStyle: 'italic' }}>"Strive to build things that make a difference!"</Typography>
           <Box sx={{ display: 'flex', justifyContent: {md:'flex-start', xs:'center'}, alignItems: {md:'center', xs:'flex-start'} }}>
             {/* <HorizontalRuleSharpIcon sx={{ color: "#c770f0", fontSize: 15, marginTop: 3 }} /> */}
             <Typography component="span" sx={{ fontFamily: 'Roboto Condensed', color: "#c770f0", fontSize: 15, marginTop: 3, }}>Sushant Shekhar</Typography>
@@ -89,6 +98,9 @@ export default function About() {
         </Box>
       </Box>
  <TechStack/>
+ <Box sx={{textAlign:'center', paddingTop:10}}> 
+ <Button variant="contained" sx={{color:'white', backgroundColor:'#c770f0', fontSize:20}} onClick={handledownload}>Download CV</Button>
+ </Box>
      
     </Box>
   )
