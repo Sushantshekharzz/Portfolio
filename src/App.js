@@ -12,7 +12,7 @@ import NotFound from './component/NotFound';
 
 
 function App() {
-  console.log("eeee")
+  
   return (
     <div className="custom-scroll"  >
       <Router>
