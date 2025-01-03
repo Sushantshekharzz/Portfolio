@@ -19,8 +19,7 @@
 
 ## Built With
 My personal portfolio
- <a   href="
-   https://sushant-shekhar-portfolio.netlify.app/">Sushant Shekhar</a>
+ <a   href="https://sushant-shekhar-portfolio.netlify.app/">Sushant Shekhar</a>
 Explore my portfolio to learn more about me, view my resume, and discover my technical skills and expertise.
 
 <br/>
