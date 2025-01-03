@@ -2,8 +2,7 @@
   
    <h1 align="center">Portfolio Website</h1>
    <div align="center">
-    <a   href="
-   https://sushant-shekhar-portfolio.netlify.app/">Sushant Shekhar</a>
+    <a   href="https://sushant-shekhar-portfolio.netlify.app/">Sushant Shekhar</a>
 </div>
 
 ## Desktop View
